@@ -12,7 +12,6 @@
 
 **NOTA**: Este tutorial requer o trabalho simultâneo e autónomo de dois grupos **A** e **B** (ou dois elementos do mesmo grupo, cada um deles a trabalhar autonomamente).
 
-
 Cada grupo irá desenvolver apenas uma parte do código do projeto e fornecerá a sua parte ao outro grupo que a deverá integrar no projeto sem que apareçam erros de compilação ou execução. Caso tal suceda, os grupos em conjunto, deverão analisar as razões pelas quais tal sucedeu e corrigir a situação.
 
 **Test Driven Development (TDD)** *is a software development practice that focuses on creating unit test cases before developing the actual code
@@ -62,6 +61,7 @@ O projeto que acabou de clonar deverá apesentar uma estrutura semelhante à da 
 Adicione os comentários **_Javadoc_** à classe, detalhando a sua implementação e complexidades algorítmicas das operações, ao construtor da classe, aos seus atributos e classe interna.
 
 ## Parte 3 - Grupo B: *Unit Testing*
+
 3. Pretende-se, objetivamente, testar implementações de *Queue*. Deverá desenvolver um conjunto de testes unitários para verificar a correta implementação dos métodos da classe **QueueLinkedList**, mesmo sabendo que esta ainda não foi implementada. Como sabemos o que cada método tem de fazer, podemos escrever antecipadamente os testes que o futuro código da classe terá de passar com distinção.
 
 Utilize instância(s) de **QueueLinkedList<Integer>** no desenvolvimento dos seguintes testes:
