@@ -46,7 +46,7 @@ Cada grupo irá desenvolver apenas uma parte do código do projeto e fornecerá 
 
 ## Parte 1 – Grupo A e Grupo B [em conjunto]
 
-* 1\. O projeto que acabou de clonar deverá apesentar uma estrutura semelhante à da imagem seguinte.
+1\. O projeto que acabou de clonar deverá apesentar uma estrutura semelhante à da imagem seguinte.
 
 ![](images/pic01.png)
 
@@ -58,7 +58,7 @@ Cada grupo irá desenvolver apenas uma parte do código do projeto e fornecerá 
 
 
 ## Parte 2 - Grupo A: Implementação de ADT
-* 2\. Implementação da **QueueLinkedList**.
+2\. Implementação da **QueueLinkedList**.
   Forneça uma implementação de **Queue\<T\>** baseada numa lista ligada, na classe **QueueLinkedList**, usando a abordagem da figura 1.
 
 ![fig. 1](images/pic02.png)
@@ -71,7 +71,7 @@ Adicione os comentários **_Javadoc_** à classe, detalhando a sua implementaç�
 
 ## Parte 3 - Grupo B: *Unit Testing*
 
-* 3\. Pretende-se, objetivamente, testar implementações de *Queue*. Deverá desenvolver um conjunto de testes unitários para verificar a correta implementação dos métodos da classe **QueueLinkedList**, mesmo sabendo que esta ainda não foi implementada. Como sabemos o que cada método tem de fazer, podemos escrever antecipadamente os testes que o futuro código da classe terá de passar com distinção.
+3\. Pretende-se, objetivamente, testar implementações de *Queue*. Deverá desenvolver um conjunto de testes unitários para verificar a correta implementação dos métodos da classe **QueueLinkedList**, mesmo sabendo que esta ainda não foi implementada. Como sabemos o que cada método tem de fazer, podemos escrever antecipadamente os testes que o futuro código da classe terá de passar com distinção.
 
 Utilize instância(s) de **QueueLinkedList<Integer>** no desenvolvimento dos seguintes testes:
 
@@ -91,7 +91,7 @@ Utilize instância(s) de **QueueLinkedList<Integer>** no desenvolvimento dos seg
 
 ## Parte 4 – Grupos A e B: Junção ADT + JUnit
 
-* 4\. Verificação da implementação do ADT com os testes unitários;
+4\. Verificação da implementação do ADT com os testes unitários;
 
 * 4.1\. O **grupo A** deverá fornecer o código da implementação do ADT **QueueLinkedList** ao **grupo B**;
 
@@ -103,7 +103,7 @@ Utilize instância(s) de **QueueLinkedList<Integer>** no desenvolvimento dos seg
 
 ## Parte 5 – Trabalho complementar (Implementação de novo ADT e Unit Testing)
 
-* 5\. Implementação e teste da classe **QueueLinkedListNoNulls**;
+5\. Implementação e teste da classe **QueueLinkedListNoNulls**;
 
 * 5.1\. Implemente a classe **QueueLinkedListNoNulls**. É uma classe derivada da classe implementada no Nível 2. Esta implementação garante que não é possível adicionar elementos **null** à fila. Se for o caso, deverá ser lançada a exceção denominada **NullNotAllowedException** já implementada no ponto 1;
 

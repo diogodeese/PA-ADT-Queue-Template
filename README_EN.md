@@ -59,7 +59,7 @@ Each group will develop only a part of the project's code and will provide its p
 
 # Part 1 – Group A and Group B [together]
 
-* 1\. The project you just cloned should have a structure similar to the following image.
+1\. The project you just cloned should have a structure similar to the following image.
 
 ![](images/pic01.png)
 
@@ -72,7 +72,7 @@ Each group will develop only a part of the project's code and will provide its p
 
 # Part 2 - Group A: ADT Implementation
 
-* 2\. **QueueLinkedList** implementation. 
+2\. **QueueLinkedList** implementation. 
 
 Provide a linked list-based implementation of **Queue\<T\>**, in the **QueueLinkedList** class, using the approach in Figure 1.
 
@@ -85,7 +85,7 @@ Add **Javadoc** comments to the class, detailing its implementation and algorith
 
 # Part 3 - Group B: Unit Testing
 
-* 3\. It is intended to objectively test implementations of Queue. You must develop a set of unit tests to verify the correct implementation of the methods of the **QueueLinkedList** class, even though it has not yet been implemented. As we know what each method must do, we can write in advance the tests that the class's future code will have to pass with flying colors;
+3\. It is intended to objectively test implementations of Queue. You must develop a set of unit tests to verify the correct implementation of the methods of the **QueueLinkedList** class, even though it has not yet been implemented. As we know what each method must do, we can write in advance the tests that the class's future code will have to pass with flying colors;
 
 Use instance(s) of QueueLinkedList\<Integer\> in developing the following tests:
 
