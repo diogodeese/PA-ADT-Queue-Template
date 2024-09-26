@@ -9,11 +9,11 @@
 -   Simulação de desenvolvimento de código usando TDD – *Test Driven Development*;
 -   Simulação de desenvolvimento cooperativo entre equipas.
 
+
 **NOTA**: Este tutorial requer o trabalho simultâneo e autónomo de dois grupos **A** e **B** (ou dois elementos do mesmo grupo, cada um deles a trabalhar autonomamente).
 
-***
 
-Cada um dos grupos irá desenvolver apenas uma parte do código do projeto e fornecerá a sua parte ao outro grupo que a deverá integrar no projeto sem que apareçam erros de compilação ou execução. Caso tal suceda, os grupos em conjunto, deverão analisar as razões pelas quais tal sucedeu e corrigir a situação.
+Cada grupo irá desenvolver apenas uma parte do código do projeto e fornecerá a sua parte ao outro grupo que a deverá integrar no projeto sem que apareçam erros de compilação ou execução. Caso tal suceda, os grupos em conjunto, deverão analisar as razões pelas quais tal sucedeu e corrigir a situação.
 
 **Test Driven Development (TDD)** *is a software development practice that focuses on creating unit test cases before developing the actual code
 [* [*fonte*](https://www.browserstack.com/guide/what-is-test-driven-development#:~:text=In%20layman's%20terms%2C%20Test%20Driven,unit%20test%20creation%2C%20and%20refactoring.) *].*
@@ -28,12 +28,16 @@ Cada um dos grupos irá desenvolver apenas uma parte do código do projeto e for
 
 **Operações principais:**
 -   **enqueue(**`e`**)** - insere o elemento `e` no final de `Q`; a operação deve resultar em **erro** se não existir capacidade/memória para mais elementos;
+  
 -   **dequeue()** - remove e devolve o elemento que se encontra atualmente no início de `Q`; a operação deve resultar em **erro** se `Q` estiver vazia;
+  
 -   **front()** - devolve, sem remover, o elemento que se encontra atualmente no início de `Q`; a operação deve resultar em **erro** se `Q` estiver vazia.
 
 **Operações genéricas sobre coleções:**
 -   **size()** - devolve o número de elementos atualmente em `Q`;
+
 -   **isEmpty()** - devolve um valor lógico que indica se `Q` está vazia, ou não;
+
 -   **clear()** - descarta todos os elementos presentes em `Q` voltando esta ao estado *vazia*.
 
 ## Parte 1 – Grupo A e Grupo B [em conjunto]
@@ -63,17 +67,25 @@ Adicione os comentários **_Javadoc_** à classe, detalhando a sua implementaç�
 Utilize instância(s) de **QueueLinkedList<Integer>** no desenvolvimento dos seguintes testes:
 
 3.1. O princípio **FIFO** é garantido na invocação dos métodos **enqueue**, **dequeue** e **front**;
+
 3.2. As exceções são corretamente lançadas nos métodos **dequeue** e **front**, nas condições previstas;
+
 3.3. O método **size**() devolve valores corretos à medida que são adicionados e removidos elementos;
+
 3.4. O método **size**() devolve valores corretos após invocação do método **clear**() (existindo ou não elementos na fila);
+
 3.5. O método **isEmpty**() devolve valores corretos à medida que são adicionados e removidos elementos;
+
 3.6. O método **isEmpty**() devolve valores corretos após invocação do método **clear**() (existindo ou não elementos na fila).
 
 ## Parte 4 – Grupos A e B: Junção ADT + JUnit
 
 4. Verificação da implementação do ADT com os testes unitários.
+
 4.1. O **grupo A** deverá fornecer o código da implementação do ADT **QueueLinkedList** ao grupo B;
+
 4.2. O **grupo B** deverá fornecer – ao **grupo A** – o conjunto de testes que implementou;
+
 4.3. Devem verificar se o código dos testes valida corretamente a implementação do ADT e, caso tal não aconteça, deverão procurar **em conjunto** a solução para as incorreções.
 
 # Parte 5 – Trabalho complementar (Implementação de novo ADT e Unit Testing)
