@@ -2,19 +2,16 @@
 
 
 
-🇬🇧 [Versão em Português](README_EN.md)
+🇬🇧 [Versão em Português](README.md)
 
 **Goals:**
 
 - Specification and implementation of ADTs in the Java language;
-
 - Development of unit tests;
-
 - Code development simulation using TDD – Test Driven Development;
-
 - Simulation of cooperative development between teams.
 
-  
+
 
 **NOTE**: This tutorial requires the simultaneous and autonomous work of two groups A and B (or two members of the same group, each working autonomously).
 
@@ -26,12 +23,12 @@ Each group will develop only a part of the project's code and will provide its p
 
 # Introduction
 
-0.1\. Run IntelliJ and clone the project that is available at the following address:
+0.1. Run IntelliJ and clone the project that is available at the following address:
 
 <p align="center">
 	<a href="https://github.com/estsetubal-pa-2024-25/lab02_template_24_25">https://github.com/estsetubal-pa-2024-25/lab02_template_24_25</a>
 </p>
-0.2\. The operations that must be supported on a queue **Q** are presented below:
+0.2. The operations that must be supported on a queue **Q** are presented below:
 
 **Main operations:**
 
@@ -43,6 +40,8 @@ Each group will develop only a part of the project's code and will provide its p
 
 -   **front()** - Returns, without removing, the element currently at the beginning of **Q**; The operation should result in an error if **Q** is empty.
 
+
+
 **Generic operations on collections:**
 
 -   **size()** - Returns the number of elements currently in **Q**;
@@ -52,6 +51,8 @@ Each group will develop only a part of the project's code and will provide its p
 
 
 -   **clear()** - Discards all elements present in **Q**, returning it to the empty state.
+
+
 
 
 
@@ -71,7 +72,7 @@ Each group will develop only a part of the project's code and will provide its p
 
 # Part 2 - Group A: ADT Implementation
 
-* 2. **QueueLinkedList** implementation. 
+* 2\. **QueueLinkedList** implementation. 
 
 Provide a linked list-based implementation of **Queue\<T\>**, in the **QueueLinkedList** class, using the approach in Figure 1.
 
@@ -104,7 +105,7 @@ Use instance(s) of QueueLinkedList\<Integer\> in developing the following tests:
 
 # Part 4 – Groups A and B: ADT + JUnit junction
 
-* 4\. Verification of ADT implementation with unit tests;
+4\. Verification of ADT implementation with unit tests;
 
 * 4.1\. **Group A** must provide the ADT **QueueLinkedList** implementation code to **group B**;
 
@@ -116,7 +117,7 @@ Use instance(s) of QueueLinkedList\<Integer\> in developing the following tests:
 
 # Part 5 – Complementary work (Implementation of new ADT and Unit Testing)
 
-* 5\. Implementation and testing of the **QueueLinkedListNoNulls** class;
+5\. Implementation and testing of the **QueueLinkedListNoNulls** class;
 
 * 5.1\. Implement the **QueueLinkedListNoNulls** class. It is a class derived from the class implemented at Level 2. This implementation guarantees that it is not possible to add null elements to the queue. If this is the case, the exception called **NullNotAllowedException** already implemented in point 1 must be thrown;
 
