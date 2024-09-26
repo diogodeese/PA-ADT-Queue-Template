@@ -53,7 +53,7 @@ O projeto que acabou de clonar deverá apesentar uma estrutura semelhante à da 
 
 ## Parte 2 - Grupo A: Implementação de ADT
 2. Implementação da **QueueLinkedList**.
-Forneça uma implementação de **Queue\<T\>** baseada numa lista ligada, na classe **QueueLinkedList**, usando a abordagem da Figura 1.
+    Forneça uma implementação de **Queue\<T\>** baseada numa lista ligada, na classe **QueueLinkedList**, usando a abordagem da Figura 1.
 
 ![](images/pic02.png)
 
@@ -66,15 +66,15 @@ Adicione os comentários **_Javadoc_** à classe, detalhando a sua implementaç�
 
 Utilize instância(s) de **QueueLinkedList<Integer>** no desenvolvimento dos seguintes testes:
 
-3.1. O princípio **FIFO** é garantido na invocação dos métodos **enqueue**, **dequeue** e **front**;
+    3.1. O princípio **FIFO** é garantido na invocação dos métodos **enqueue**, **dequeue** e **front**;
 
-3.2. As exceções são corretamente lançadas nos métodos **dequeue** e **front**, nas condições previstas;
+    3.2. As exceções são corretamente lançadas nos métodos **dequeue** e **front**, nas condições previstas;
 
-3.3. O método **size**() devolve valores corretos à medida que são adicionados e removidos elementos;
+    3.3. O método **size**() devolve valores corretos à medida que são adicionados e removidos elementos;
 
-3.4. O método **size**() devolve valores corretos após invocação do método **clear**() (existindo ou não elementos na fila);
+    3.4. O método **size**() devolve valores corretos após invocação do método **clear**() (existindo ou não elementos na fila);
 
-3.5. O método **isEmpty**() devolve valores corretos à medida que são adicionados e removidos elementos;
+    3.5. O método **isEmpty**() devolve valores corretos à medida que são adicionados e removidos elementos;
 
 3.6. O método **isEmpty**() devolve valores corretos após invocação do método **clear**() (existindo ou não elementos na fila).
 
@@ -82,16 +82,16 @@ Utilize instância(s) de **QueueLinkedList<Integer>** no desenvolvimento dos seg
 
 4. Verificação da implementação do ADT com os testes unitários.
 
-4.1. O **grupo A** deverá fornecer o código da implementação do ADT **QueueLinkedList** ao grupo B;
+    4.1. O **grupo A** deverá fornecer o código da implementação do ADT **QueueLinkedList** ao grupo B;
 
-4.2. O **grupo B** deverá fornecer – ao **grupo A** – o conjunto de testes que implementou;
+    4.2. O **grupo B** deverá fornecer – ao **grupo A** – o conjunto de testes que implementou;
 
-4.3. Devem verificar se o código dos testes valida corretamente a implementação do ADT e, caso tal não aconteça, deverão procurar **em conjunto** a solução para as incorreções.
+    4.3. Devem verificar se o código dos testes valida corretamente a implementação do ADT e, caso tal não aconteça, deverão procurar **em conjunto** a solução para as incorreções.
 
 # Parte 5 – Trabalho complementar (Implementação de novo ADT e Unit Testing)
 
 5. Implementação e teste da classe **QueueLinkedListNoNulls**.
-5.1. Implemente a classe **QueueLinkedListNoNulls**. É uma classe derivada da classe implementada no Nível 2. Esta implementação garante que não é possível adicionar elementos **null** à fila. Se for o caso, deverá ser lançada a exceção denominada **NullNotAllowedException** já implementada no ponto 1.
-5.2. Crie um conjunto um teste unitário que permita verificar o lançamento da exceção aquando da tentativa de inserção de um elemento a `null`.
-5.3. Crie um novo conjunto de testes unitários para esta classe, incluindo todos os existentes em `QueueLinkedListTest`.
-5.4. Crie uma instância da classe no método `main` para ilustrar a correção da sua implementação.
+    5.1. Implemente a classe **QueueLinkedListNoNulls**. É uma classe derivada da classe implementada no Nível 2. Esta implementação garante que não é possível adicionar elementos **null** à fila. Se for o caso, deverá ser lançada a exceção denominada **NullNotAllowedException** já implementada no ponto 1.
+    5.2. Crie um conjunto um teste unitário que permita verificar o lançamento da exceção aquando da tentativa de inserção de um elemento a `null`.
+    5.3. Crie um novo conjunto de testes unitários para esta classe, incluindo todos os existentes em `QueueLinkedListTest`.
+    5.4. Crie uma instância da classe no método `main` para ilustrar a correção da sua implementação.
