@@ -103,7 +103,7 @@ Utilize instância(s) de **QueueLinkedList<Integer>** no desenvolvimento dos seg
 
 ## Parte 5 – Trabalho complementar (Implementação de novo ADT e Unit Testing)
 
-* 5. Implementação e teste da classe **QueueLinkedListNoNulls**;
+* 5\. Implementação e teste da classe **QueueLinkedListNoNulls**;
 
 * 5.1\. Implemente a classe **QueueLinkedListNoNulls**. É uma classe derivada da classe implementada no Nível 2. Esta implementação garante que não é possível adicionar elementos **null** à fila. Se for o caso, deverá ser lançada a exceção denominada **NullNotAllowedException** já implementada no ponto 1;
 
