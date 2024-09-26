@@ -67,7 +67,6 @@ Adicione os comentários **_Javadoc_** à classe, detalhando a sua implementaç�
 Utilize instância(s) de **QueueLinkedList<Integer>** no desenvolvimento dos seguintes testes:
 
     3.1. O princípio **FIFO** é garantido na invocação dos métodos **enqueue**, **dequeue** e **front**;
-
     3.2. As exceções são corretamente lançadas nos métodos **dequeue** e **front**, nas condições previstas;
 
     3.3. O método **size**() devolve valores corretos à medida que são adicionados e removidos elementos;
@@ -76,7 +75,7 @@ Utilize instância(s) de **QueueLinkedList<Integer>** no desenvolvimento dos seg
 
     3.5. O método **isEmpty**() devolve valores corretos à medida que são adicionados e removidos elementos;
 
-3.6. O método **isEmpty**() devolve valores corretos após invocação do método **clear**() (existindo ou não elementos na fila).
+    3.6. O método **isEmpty**() devolve valores corretos após invocação do método **clear**() (existindo ou não elementos na fila).
 
 ## Parte 4 – Grupos A e B: Junção ADT + JUnit
 
