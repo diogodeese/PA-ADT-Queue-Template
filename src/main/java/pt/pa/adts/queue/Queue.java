@@ -15,9 +15,9 @@ public interface Queue<T> {
      * @param elem element to store
      *
      * @throws QueueFullException thrown if there is no more capacity or memory for this element.
-     * @throws NullPointerException thrown if <i>elem</i> is <b>null</b> and the implementation does not allow nulls.
+     * @throws NullNotAllowedException thrown if <i>elem</i> is <b>null</b> and the implementation does not allow nulls.
      */
-    public void enqueue(T elem) throws QueueFullException, NullPointerException;
+    public void enqueue(T elem) throws QueueFullException, NullNotAllowedException;
 
     /**
      * Removes the element at the front of the queue.

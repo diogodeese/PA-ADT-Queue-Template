@@ -2,10 +2,10 @@ package pt.pa.adts.queue;
 
 public class NullNotAllowedException extends RuntimeException {
     public NullNotAllowedException() {
-        throw new UnsupportedOperationException("TODO - Must be done by the student");
+        super("Null values are not allowed.");
     }
 
   public NullNotAllowedException(String message) {
-    throw new UnsupportedOperationException("TODO - Must be done by the student");
+    super(message);
   }
 }

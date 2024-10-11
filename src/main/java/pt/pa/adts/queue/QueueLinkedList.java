@@ -21,20 +21,12 @@ public class QueueLinkedList<T> implements Queue<T> {
     }
 
     @Override
-    public void enqueue(T elem) throws QueueFullException, NullPointerException {
+    public void enqueue(T elem) throws QueueFullException, NullNotAllowedException {
             ListNode newListNode = new ListNode(elem, trailer.prev, trailer);
             trailer.prev.next = newListNode;
             trailer.prev = newListNode;
             size++;
     }
-
-//  [h] <-> [1] <-> [t]
-//  [h] <-> [1] <-> [2] <-> [t]
-
-    // new aponta next: trailer V
-    // new aponta prev: trailer.prev V
-    // trailer aponta new V
-    // trailer.prev [1] aponta new V
 
     @Override
     public T dequeue() throws QueueEmptyException {
@@ -47,9 +39,6 @@ public class QueueLinkedList<T> implements Queue<T> {
 
         return removed.element;
     }
-
-    //  [h] <-> [1] <-> [2] <-> [t]
-    //  [h] <-> [2] <-> [t]
 
     @Override
     public T front() throws QueueEmptyException {
