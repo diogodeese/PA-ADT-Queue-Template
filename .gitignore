@@ -2,6 +2,7 @@
 
 *.log
 
+.idea/
 /target/
 /build/
 
